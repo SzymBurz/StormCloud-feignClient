@@ -22,6 +22,8 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	//springfox swagger not available yet for spring boot 3.0
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
